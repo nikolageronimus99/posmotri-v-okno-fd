@@ -164,6 +164,7 @@ ol {
   white-space: nowrap;
   max-width: 196px;
   cursor: pointer;
+  font-family: Oswald, sans-serif;
 }
 
 .content__video-card-description {
@@ -266,7 +267,7 @@ ol {
 }
 
 .more-button {
-  width: 399px;
+  width: 100%;
   margin-top: 30px;
 }
 
@@ -283,7 +284,8 @@ ol {
 }
 
 .button:focus-visible {
-  outline-offset: 1px solid #FFF;
+  outline: 1px solid #FFF;
+  outline-offset: 1px;
 }
 
 .content__card-link {
