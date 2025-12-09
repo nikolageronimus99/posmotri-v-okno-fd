@@ -136,6 +136,7 @@ ol {
 .search-form__fieldset-title {
   font-family: Fira Sans Condensed, sans-serif;
   font-size: 18px;
+  margin-bottom: 5px;
 }
 
 .title {
@@ -186,7 +187,7 @@ ol {
 
 .search-form__checkbox-list {
   display: flex;
-  gap: 5px;
+  gap: 10px;
 }
 
 .search-form__fieldset {
@@ -197,7 +198,7 @@ ol {
   display: flex;
   align-items: center;
   width: fit-content;
-  gap: 10px;
+  gap: 5px;
 }
 
 .search-form__textfield {
@@ -272,11 +273,11 @@ ol {
 }
 
 .button:hover {
-  background-color: #545050;
+  text-decoration: underline;
 }
 
 .button:active {
-  text-decoration: underline;
+  background-color: #545050;
 }
 
 .button:focus {
@@ -298,6 +299,9 @@ ol {
 
 .content__card-link:active {
   background-color: #545050;
+}
+
+.content__card-link:hover {
   text-decoration: underline;
 }
 
